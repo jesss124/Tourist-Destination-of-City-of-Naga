@@ -1,0 +1,86 @@
+.tips {
+  position: relative;
+  background-image: url('Image 06.jpg'); /* Add your background image */
+  background-size: cover;
+  background-position: center;
+  color: rgb(12, 12, 12);
+  text-align: center;
+  padding: 50px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(235, 14, 14, 0.2);
+}
+.tip-content {
+  z-index: 1;
+}
+
+.tip {
+  background-color: rgba(240, 11, 11, 0.5)/* Semi-transparent white background */
+  padding: 20px;
+  margin: 0.1px auto;
+  max-width: 800px;
+  border-radius: 0.1px;
+}
+
+.tip h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color:  (150, 18, 18, 0.2);;
+}
+
+.tip p {
+  font-size: 16px;
+  background-color: (150, 18, 18, 0.2);
+}
+/* Header styles */
+.header {
+  position: relative;
+  height: 10px; /* Adjust height as needed */
+  background-color: rgba(240, 11, 11, 0.5);; /* Semi-transparent overlay */
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  page-break-after: auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;  
+  background-color: (150, 18, 18, 0.2);
+}
+
+.logo img {
+  width: 120px; /* Adjust size as needed */
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+
+.menu ul li a {
+  color: rgb(219, 16, 16);
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+}
+
+.menu ul li a:hover {
+  color: #ff69b4; /* Pink color on hover */
+}
+.btn {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #ff69b4; /* Pink button color */
+  color: rgb(241, 236, 236);
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
